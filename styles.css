@@ -3,3 +3,24 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1em;
+  list-style: none;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
