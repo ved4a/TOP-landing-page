@@ -24,3 +24,7 @@ ul {
   align-items: center;
   gap: 1em;
 }
+
+img {
+  width: 550px;
+}
