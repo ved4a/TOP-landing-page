@@ -17,7 +17,7 @@ nav {
 }
 
 /* Listed section of navbar */
-ul {
+.header-links {
   display: flex;
   margin: 0;
   padding: 0;
@@ -25,10 +25,27 @@ ul {
   list-style: none;
 }
 
+li > a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+li > a:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
 /* All links */
 a {
   margin: 0 1em;
   text-decoration: none;
+}
+
+/*Logo*/
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
 }
 
 /* Divided navbar into two sections to ensure they stick to sides */
