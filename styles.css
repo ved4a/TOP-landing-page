@@ -4,12 +4,19 @@
   font-family: "Roboto", sans-serif;
 }
 
-.navbar {
+/* Design of overall navbar */
+nav {
   display: flex;
   justify-content: space-between;
-  padding: 0.5em;
 }
 
+.navbar {
+  background: #1f2937;
+  padding: 0.5em;
+  margin: -0.5em;
+}
+
+/* Listed section of navbar */
 ul {
   display: flex;
   margin: 0;
@@ -18,6 +25,13 @@ ul {
   list-style: none;
 }
 
+/* All links */
+a {
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+/* Divided navbar into two sections to ensure they stick to sides */
 .left,
 .right {
   display: flex;
@@ -25,6 +39,7 @@ ul {
   gap: 1em;
 }
 
+/* Hero image size reduced */
 img {
   width: 550px;
 }
