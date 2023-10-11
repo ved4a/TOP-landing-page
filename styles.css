@@ -25,12 +25,12 @@ nav {
   list-style: none;
 }
 
-li > a {
+.header-links li > a {
   font-size: 18px;
   color: #e5e7eb;
 }
 
-li > a:hover {
+.header-links li > a:hover {
   cursor: pointer;
   font-weight: bold;
 }
@@ -46,6 +46,11 @@ a {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: #3882f6;
 }
 
 /* Divided navbar into two sections to ensure they stick to sides */
