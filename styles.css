@@ -94,6 +94,7 @@ a {
 }
 
 .cta-btn {
+  font-size: 20px;
   padding: 0.5em;
   background-color: #3882f6;
   color: #f9faf8;
@@ -102,12 +103,14 @@ a {
   cursor: pointer;
   border-radius: 8px;
   margin: 0.75em 0;
+  box-sizing: border-box;
 }
 
 .cta-btn:hover {
   cursor: pointer;
   color: #3882f6;
   background-color: #f9faf8;
+  box-sizing: border-box;
 }
 
 /* Features Section */
@@ -151,4 +154,63 @@ blockquote {
   font-style: italic;
   text-align: center;
   padding: 2em;
+}
+
+/* CTA Section */
+.cta-section {
+  margin: -0.5em;
+  padding: 4em 6em;
+}
+
+.cta {
+  background: #3882f6;
+  border-radius: 8px;
+  padding: 2em 6em;
+}
+
+.cta-paragraph > p {
+  font-size: 20px;
+  color: #f9faf8;
+}
+
+.cta-bold {
+  font-weight: bold;
+}
+
+.cta-btn-bottom {
+  font-size: 20px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.5em;
+  margin: 0.5em;
+  float: right;
+}
+
+.cta-btn-bottom:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+  cursor: pointer;
+  border: none;
+}
+
+.cta-paragraph,
+.cta-btn-bottom {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Footer */
+footer {
+  margin: -0.5em;
+  padding: 1em;
+  background: #1f2937;
+}
+
+footer > p {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: center;
 }
